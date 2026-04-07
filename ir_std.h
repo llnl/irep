@@ -8,7 +8,7 @@
 #include "ir_macros.h"
 
 #if defined(IREP_LANG_FORTRAN)
-module IR_WKT_NAME
+MODULE IR_WKT_NAME
 use, intrinsic :: iso_c_binding
 #endif
 

@@ -7,7 +7,7 @@
 #define ir_extern_h
 
 #if defined(IREP_LANG_FORTRAN)
-module ir_extern
+MODULE ir_extern
   use, intrinsic :: iso_c_binding
   use ir_std
   implicit none
